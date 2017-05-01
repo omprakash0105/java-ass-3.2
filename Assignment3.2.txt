@@ -1,0 +1,33 @@
+package Test1;
+
+import java.util.Scanner;
+
+public class program3 {
+
+	public static void main(String[] args) {
+
+		
+		Scanner s = new Scanner(System.in);  
+		
+		System.out.println("Enter 2 strings to compare:");
+		String S1=s.nextLine();
+		String S2=s.nextLine();
+	    Boolean  same = S1.equals(S2);
+	      System.out.println("Returned Value = " + same );
+
+	      
+	}
+}
+
+Output
+1.
+Enter 2 strings to compare:
+sahu
+sahu
+Returned Value = true
+
+2.
+Enter 2 strings to compare:
+Omprakash
+sahu
+Returned Value = false
